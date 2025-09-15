@@ -51,13 +51,13 @@ public class JavaApplication1 {
             System.out.println(Math.asin(degrees));
         }
         else if (A == 6) {
-                System.out.println(Math.acos(radians));
+                System.out.println(Math.acos(degrees));
         } else if (A == 7) {
-                System.out.println(Math.atan(radians));
+                System.out.println(Math.atan(degrees));
         } else if (A == 8) {
-                System.out.println(Math.asin(radians));
-                System.out.println(Math.acos(radians));
-                System.out.println(Math.atan(radians));
+                System.out.println(Math.asin(degrees));
+                System.out.println(Math.acos(degrees));
+                System.out.println(Math.atan(degrees));
         } else {
             System.out.println("Invalid Selection. Please choose 1, 2, 3, 4, 5, 6, 7, and 8");
         }
@@ -294,3 +294,4 @@ public class JavaApplication1 {
     
     }
 }
+
